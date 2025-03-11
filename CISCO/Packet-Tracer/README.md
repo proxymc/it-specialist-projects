@@ -6,14 +6,10 @@ This section contains Cisco Packet Tracer labs covering networking fundamentals,
 🗂️ Labs
 
 🔹 File Integrity Check
- Simulates a file integrity verification process using hashing after a cyber attack.
-
-📂 Full Lab Write-Up
+ Simulates a file integrity verification process using hashing after a cyber attack. 📂 Full Lab Write-Up
 
 🔹 Configure Wireless Router Security
- Hardening a home wireless router against potential attacks.
-
-📂 Full Lab Write-Up
+ Hardening a home wireless router against potential attacks. 📂 Full Lab Write-Up
 
 
 
