@@ -5,6 +5,7 @@ This section contains Cisco Packet Tracer labs covering networking fundamentals,
 
 🗂️ Labs
 
+---
 🔹 File Integrity Check
 
  Simulates a file integrity verification process using hashing after a cyber attack. 📂 Full Lab Write-Up
