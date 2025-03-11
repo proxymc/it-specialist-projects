@@ -30,4 +30,4 @@
 ## 💡 Lesson Learned  
 Hashing ensures **data integrity**, but **HMAC adds an extra layer of security** by requiring a secret key.  
 
-🔗 **Repository:** [Cybersecurity Labs](../../README.md)  
+🔗 **Repository:** [it speclaist projects](../../README.md)  
