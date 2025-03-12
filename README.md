@@ -4,7 +4,7 @@ A collection of hands-on labs and projects related to IT Support, Networking, Sy
 
 ## 🔬 LABS  
 
-### 🖧 CISCO
+### 🖧 [CISCO PACKET TRACER](/CISCO/Packet-Tracer)
 - **[Packet-Tracer - File Integrity](./CISCO/Packet-Tracer/Packet_Tracer_File_Integrity.md)** 
 - **[Packet Tracer - Configure Wireless Router Hardening and Security](./LABS/CISCO/Packet-Tracer/README.md)**  
 
