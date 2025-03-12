@@ -17,7 +17,7 @@ A collection of hands-on labs and projects related to IT Support, Networking, Sy
 - Click on a lab to see the full write-up and instructions.  
 
 ---
-###📌 **Work in Progress**  
+### 📌 **Work in Progress**  
 I continue to update this repository as I complete more labs and projects!
 
 ---
