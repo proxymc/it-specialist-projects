@@ -12,7 +12,7 @@ This section contains Cisco Packet Tracer labs covering networking fundamentals,
 ---
 
 🔹 Configure Wireless Router Security
-#### Hardening a home wireless router against potential attacks. 📂 [Full Lab Write-Up](/CISCO/Packet-Tracer/Wireless_Router_Hardening_And_Security.md/)
+#### Hardening a home wireless router against potential attacks. 📂 [Full Lab Write-Up](/CISCO/Packet-Tracer/Wireless_Router_Hardening_And_Security/)
 ---
 
 #### 🔙 [Return to It Specialist Projects Repository](https://github.com/proxymc/it-specialist-projects/blob/main/README.md)
