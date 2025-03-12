@@ -21,4 +21,4 @@ A collection of hands-on labs and projects related to IT Support, Networking, Sy
 I continue to update this repository as I complete more labs and projects!
 
 ---
-#### 🔙 **Back To My Profile**: [Pawel Drzazga](https://github.com/proxymc)
+#### 🔙 **[Back To My Profile](https://github.com/proxymc)**
