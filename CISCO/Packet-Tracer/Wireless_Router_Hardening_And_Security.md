@@ -93,7 +93,7 @@ After securing the wireless router, we connect client devices using the appropri
 4. Set `IP Configuration` to **DHCP**.  
 5. Repeat for **Home_Siren** and **Home_Doors**.
 
-### [Configuring WebCam Connection](https://raw.githubusercontent.com/proxymc/it-specialist-projects/refs/heads/main/CISCO/Packet-Tracer/Images/Wireless_Router_Hardening_And_Security/Home%20Web%20Cam%20connectivity%20configuration.png)
+### [Configuring WebCam Connection Image](https://raw.githubusercontent.com/proxymc/it-specialist-projects/refs/heads/main/CISCO/Packet-Tracer/Images/Wireless_Router_Hardening_And_Security/Home%20Web%20Cam%20connectivity%20configuration.png)
 
 ---
 
