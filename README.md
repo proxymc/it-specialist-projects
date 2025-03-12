@@ -4,7 +4,7 @@ A collection of hands-on labs and projects related to IT Support, Networking, Sy
 
 ## 🔬 LABS  
 
-### 🔹 CISCO 🖧  
+### 🖧 CISCO
 - **[Packet-Tracer - File Integrity](./CISCO/Packet-Tracer/)** 
 - **[Packet Tracer - Configure Wireless Router Hardening and Security](./LABS/CISCO/Packet-Tracer/README.md)**  
 
@@ -21,4 +21,4 @@ A collection of hands-on labs and projects related to IT Support, Networking, Sy
 I continue to update this repository as I complete more labs and projects!
 
 ---
-🔗 **Back to My Profile**: [proxymc](https://github.com/proxymc)
+#### 🔙 **Back To My Profile**: [Pawel Drzazga](https://github.com/proxymc)
