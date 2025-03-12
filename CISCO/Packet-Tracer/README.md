@@ -15,7 +15,7 @@ This section contains Cisco Packet Tracer labs covering networking fundamentals,
 #### Hardening a home wireless router against potential attacks. 📂 [Full Lab Write-Up](/CISCO/Packet-Tracer/Wireless_Router_Hardening_And_Security.md/)
 ---
 🔹 Connecting IoT Devices
-#### Implementing Physical Security With IoT Devices. 📂 [Full Lab Write-Up](/CISCO/Packet-Tracer/Implementing_Physical_Security_With_IoT-Devices.md)
+#### Implementing Physical Security With IoT Devices. 📂 [Full Lab Write-Up](/CISCO/Packet-Tracer/Implementing_Physical_Security_With_IoT_Devices.md)
 
 ---
 #### 🔙 [Back To IT Specialist Projects Repository](https://github.com/proxymc/it-specialist-projects/blob/main/README.md)
