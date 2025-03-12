@@ -22,7 +22,7 @@ The router’s **default login (admin/admin)** is well-known and can be easily g
 - Changed the **administrator password** to a strong one (**cisconetacadrocks!**).  
 - Re-authenticated to ensure the changes took effect.  
 
-[Changing Default Router Image](https://raw.githubusercontent.com/proxymc/it-specialist-projects/refs/heads/main/CISCO/Packet-Tracer/Images/Wireless_Router_Hardening_And_Security/Changing%20Default%20Password%20.png)
+### [Changing Default Router Image](https://raw.githubusercontent.com/proxymc/it-specialist-projects/refs/heads/main/CISCO/Packet-Tracer/Images/Wireless_Router_Hardening_And_Security/Changing%20Default%20Password%20.png)
 
 🔍 **Lesson Learned:** A strong **router password** prevents unauthorized access and is the first layer of defense.  
 
