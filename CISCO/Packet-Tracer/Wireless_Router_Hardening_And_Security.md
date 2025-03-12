@@ -42,7 +42,7 @@ The default settings on a wireless router can pose a security risk, making it es
 
 ---
 
-## **🔒 Part 2: Configure Wireless Router Network Security**
+## **🛠 Part 2: Configure Wireless Router Network Security**
 By default, wireless networks may be accessible to unauthorized users. We will secure these networks by enabling encryption and configuring SSIDs.
 
 ### **Step 1: Configure and Broadcast the SSID**
@@ -74,7 +74,7 @@ By default, wireless networks may be accessible to unauthorized users. We will s
 ### [Configuring Security for GuestNet Image](https://raw.githubusercontent.com/proxymc/it-specialist-projects/refs/heads/main/CISCO/Packet-Tracer/Images/Wireless_Router_Hardening_And_Security/Best%20security%20for%20GuestNet%20Wireless%20Networks.png)
 ---
 
-## **💻 Part 3: Configure Wireless Clients Network Security**
+## **🛠 Part 3: Configure Wireless Clients Network Security**
 After securing the wireless router, we connect client devices using the appropriate security settings.
 
 ### **Step 1: Connect Laptops to HomeNet and GuestNet**
@@ -97,7 +97,7 @@ After securing the wireless router, we connect client devices using the appropri
 
 ---
 
-## **✅ Part 4: Verify Connectivity and Security Settings**
+## **🛠 Part 4: Verify Connectivity and Security Settings**
 After configuration, we test connectivity and enforce network isolation.
 
 ### **Step 1: Test Internet Connectivity**
