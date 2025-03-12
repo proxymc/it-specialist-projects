@@ -22,6 +22,8 @@ The router’s **default login (admin/admin)** is well-known and can be easily g
 - Changed the **administrator password** to a strong one (**cisconetacadrocks!**).  
 - Re-authenticated to ensure the changes took effect.  
 
+![Changing Default Password](CISCO/Packet-Tracer/Images/Wireless_Router_Hardening_And_Security/Changing%20Default%20Password.png)
+
 🔍 **Lesson Learned:** A strong **router password** prevents unauthorized access and is the first layer of defense.  
 
 ### 🔹 Disabling Remote Management  
