@@ -127,5 +127,5 @@ These techniques are fundamental for cybersecurity professionals responsible for
 This lab is an essential exercise for securing sensitive data and ensuring its integrity after cyber incidents. 🚀
 
 ---
-#### 🔙 [Back To CISCO Labs](./CISCO/Packet-Tracer/)
+#### 🔙 [Back To CISCO Labs](/CISCO/Packet-Tracer/)
 #### 🔙 [Back To IT Specialist Projects Repository](https://github.com/proxymc/it-specialist-projects)  
