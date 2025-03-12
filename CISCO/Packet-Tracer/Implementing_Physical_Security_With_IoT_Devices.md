@@ -130,3 +130,6 @@ Each IoT device must be registered for remote monitoring.
 ## Conclusion
 This lab demonstrated how to configure and secure IoT devices within a home network. By connecting IoT devices to a **wireless network**, **configuring MAC filtering**, **registering with a remote server**, and **remotely managing them**, we established a secure and efficient home security system.
 
+---
+#### 🔙 [Back To CISCO Labs](/CISCO/Packet-Tracer/)
+#### 🔙 [Back To IT Specialist Projects Repository](https://github.com/proxymc/it-specialist-projects)  
