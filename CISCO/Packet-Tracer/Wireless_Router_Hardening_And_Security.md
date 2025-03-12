@@ -1,7 +1,5 @@
 # Packet Tracer - Wireless Router Hardening and Security
-
 ---
-# Packet Tracer - Configure Wireless Router Hardening and Security
 
 ## 📌 OVERVIEW 
 This lab focuses on **hardening a wireless router** to enhance security and mitigate potential attacks. By configuring the router’s basic security settings, wireless security, and client connectivity, we create a more resilient home network. 
