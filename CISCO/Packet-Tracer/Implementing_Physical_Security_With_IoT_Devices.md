@@ -1,17 +1,15 @@
 # Packet Tracer - Implement Physical Security with IoT Devices
 
-## Objectives
+## 📌Overview
+To improve home security, IoT devices will be installed to allow remote monitoring. This lab involves connecting IoT devices to a wireless network, registering them with a remote server, and interacting with them via an IoT management system.
+
+### Objectives
 
 - **Part 1:** Connect IoT Devices to the Network
 - **Part 2:** Add IoT Devices to the Registration Server
 - **Part 3:** Explore IoT Security Device Functionality
 
-## Background / Scenario
-
-To improve home security, IoT devices will be installed to allow remote monitoring. This lab involves connecting IoT devices to a wireless network, registering them with a remote server, and interacting with them via an IoT management system.
-
 ---
-
 ## Part 1: Connect IoT Devices to the Network
 
 ### Step 1: Connect the Siren to the Door
