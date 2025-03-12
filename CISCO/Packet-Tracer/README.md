@@ -8,7 +8,7 @@ This section contains Cisco Packet Tracer labs covering networking fundamentals,
 
 🔹 File Integrity Check
 
-#### Simulates a file integrity verification process using hashing after a cyber attack. 📂 [Full Lab Write-Up](/CISCO/Packet-Tracer/Packet_Tracer_File_Integrity.md)
+#### Simulates a file integrity verification process using hashing after a cyber attack. 📂 [Full Lab Write-Up](/CISCO/Packet-Tracer/File_and_Data_Integrity_Checks.md)
 ---
 
 🔹 Configure Wireless Router Security
