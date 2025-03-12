@@ -1,20 +1,20 @@
 # Packet Tracer - File and Data Integrity Checks
 
-## Objectives
+## 📌Overview
+In this lab, we will verify the integrity of multiple files using hashes to ensure they have not been tampered with. If any discrepancies are found, the files will be transferred to a designated analyst for further investigation. This exercise simulates real-world cybersecurity practices for maintaining data integrity.
+
+### Objectives
 
 - Recover files after a cyber attack.
 - Use hashing to verify file integrity.
 - Use HMAC to verify file integrity.
 
-## Background
-
-In this lab, we will verify the integrity of multiple files using hashes to ensure they have not been tampered with. If any discrepancies are found, the files will be transferred to a designated analyst for further investigation. This exercise simulates real-world cybersecurity practices for maintaining data integrity.
-
-## Resources
+### Resources
 
 - **CSE-LABVM** installed in VirtualBox
 - **Packet Tracer** for network simulation
 
+---
 ## Instructions
 
 ### Part 1: Recover Files after a Cyber Attack
