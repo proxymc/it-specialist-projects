@@ -1,1 +1,1 @@
-
+This is a placeholder file for the images folder to Implementing Physical Security With IoT Devices Lab
