@@ -1,115 +1,140 @@
 # Packet Tracer - Wireless Router Hardening and Security
 
 ---
-## 📌 Overview  
-In this lab, I worked on **securing a wireless router** by implementing best security practices. The exercise covered essential aspects of **wireless security hardening**, from securing administrative access to configuring encryption and isolating networks.  
+# Packet Tracer - Configure Wireless Router Hardening and Security
 
-By the end of this lab, I achieved the following objectives:  
-✔ Strengthened **router access security** by changing the default credentials and disabling remote management.  
-✔ Configured **secure wireless network settings** to prevent unauthorized access.  
-✔ Implemented **WPA2 encryption** for secure communication between clients and the router.  
-✔ Set up **guest network isolation** to restrict access between guest and home networks.  
-✔ Verified **connectivity and security settings** to ensure proper configuration.  
+## 📌 OVERVIEW 
+This lab focuses on **hardening a wireless router** to enhance security and mitigate potential attacks. By configuring the router’s basic security settings, wireless security, and client connectivity, we create a more resilient home network. 
 
----
-
-## 🛠 Part 1: Securing the Wireless Router  
-A **wireless router with default settings** is a security risk, as attackers can exploit weak credentials and open ports. My first step was to harden the router’s basic configuration.  
-
-### 🔹 Changing Default Router Credentials  
-The router’s **default login (admin/admin)** is well-known and can be easily guessed. To mitigate this:  
-- I logged into the router's web interface (`192.168.0.1`).  
-- Changed the **administrator password** to a strong one (**cisconetacadrocks!**).  
-- Re-authenticated to ensure the changes took effect.  
-
-### [Changing Default Router Image](https://raw.githubusercontent.com/proxymc/it-specialist-projects/refs/heads/main/CISCO/Packet-Tracer/Images/Wireless_Router_Hardening_And_Security/Changing%20Default%20Password%20.png)
-
-🔍 **Lesson Learned:** A strong **router password** prevents unauthorized access and is the first layer of defense.  
-
-### 🔹 Disabling Remote Management  
-Remote management allows **external access** to the router for troubleshooting but also exposes it to attacks. To mitigate this risk:  
-- I navigated to **Administration > Remote Management** and **disabled it**.  
-- Saved the settings, which caused the router to reset.  
-- Verified that the Home Office PC obtained a valid IP address again.  
-
-🔍 **Lesson Learned:** Disabling **remote management** reduces attack surface by preventing unauthorized external access.  
+### **Objectives**  
+1. Configure basic security settings for a wireless router.  
+2. Configure wireless router network security.  
+3. Configure wireless clients' network security.  
+4. Verify connectivity and security settings.  
 
 ---
 
-## 🛠 Part 2: Configuring Wireless Security  
-By default, **wireless networks** may allow anyone in range to connect, creating a security vulnerability. My goal was to ensure only **authorized users** could access the network.  
+## **🛠 Part 1: Configure Basic Security Settings for a Wireless Router**
 
-### 🔹 Enabling and Renaming SSID  
-The SSID (Service Set Identifier) is the network name broadcasted by the router. Instead of using the **default name**, I configured it as follows:  
-- **Enabled SSID Broadcast** (to make the network visible).  
-- Renamed all three SSIDs to **HomeNet** for consistency.  
+The default settings on a wireless router can pose a security risk, making it essential to change login credentials and disable remote management.
 
-🔍 **Lesson Learned:** Hiding the SSID **does not** improve security since attackers can still detect it using **packet sniffing tools**.  
+### [Wide Network Visualisation Image](https://raw.githubusercontent.com/proxymc/it-specialist-projects/refs/heads/main/CISCO/Packet-Tracer/Images/Wireless_Router_Hardening_And_Security/Packet%20Tracer%20Configure%20Wireless%20Router%20Hardening%20and%20Security.png)
+### [Home Network Visualisation Image](https://raw.githubusercontent.com/proxymc/it-specialist-projects/refs/heads/main/CISCO/Packet-Tracer/Images/Wireless_Router_Hardening_And_Security/Packet%20Tracer%20Home.png)
 
-### 🔹 Implementing WPA2 Encryption  
-To **protect wireless communication**, I secured all networks with **WPA2-Personal (AES encryption)**:  
-- **Security Mode:** WPA2-Personal  
-- **Encryption Type:** AES  
-- **Passphrase:** ciscorocks  
+### **Step 1: Change the Default Router Password**
+1. Click **Home Office PC** > `Desktop` tab > **Web Browser**.  
+2. Connect to the **Home Wireless Router** at `192.168.0.1`.  
+3. Log in with:
+   - **Username:** admin  
+   - **Password:** admin  
+4. Navigate to the **Administration** tab.  
+5. Change the password to `cisconetacadrocks!` in both fields.  
+6. Click **Save Settings** and re-authenticate using the new credentials.  
 
-🔍 **Lesson Learned:** **WPA2 (AES)** encryption is a **mandatory security standard**. **WEP and WPA are outdated** and vulnerable to cracking.  
+### [Changing Default Password Image](https://raw.githubusercontent.com/proxymc/it-specialist-projects/refs/heads/main/CISCO/Packet-Tracer/Images/Wireless_Router_Hardening_And_Security/Changing%20Default%20Password%20.png)
 
-### 🔹 Setting Up a Guest Network  
-For visitors, I configured a **separate Guest network**:  
-- **SSID:** GuestNet  
-- **Security Mode:** WPA2-Personal  
-- **Passphrase:** guestpass  
+### **Step 2: Disable Remote Management**
+1. Navigate to the **Administration** tab.  
+2. Set `Remote Management` to **Disabled**.  
+3. Click **Save Settings**.  
+4. Allow the router to reset, then reconnect using the browser at `192.168.0.1`.  
+5. Verify that **Home Office PC** receives an IP address from `192.168.0.1/24` network.
 
-🔍 **Lesson Learned:** A **guest network** keeps external devices **isolated** from private resources, reducing the risk of **malware infections and unauthorized access**.  
-
----
-
-## 🛠 Part 3: Configuring Wireless Clients  
-With the wireless networks secured, I connected various devices.  
-
-### 🔹 Connecting Laptops to the Secured Network  
-- **Home Laptop 1** connected to **HomeNet** using `ciscorocks`.  
-- **Home Laptop 2** connected to **GuestNet** using `guestpass`.  
-
-To ensure connectivity:  
-- I verified that both laptops received a **DHCP-assigned IP** from `192.168.0.0/24`.  
-- Checked the **"You have successfully connected to the access point"** message.  
-
-### 🔹 Connecting IoT Devices  
-For **IoT security**, I configured the **Home Webcam, Home Siren, and Home Doors** with:  
-- **SSID:** HomeNet  
-- **Authentication:** WPA2-PSK  
-- **Passphrase:** ciscorocks  
-
-🔍 **Lesson Learned:** IoT devices must use **strong encryption** and **be placed on a separate VLAN** where possible.  
+### [Veryfying Home Office PC Connection Image](https://raw.githubusercontent.com/proxymc/it-specialist-projects/refs/heads/main/CISCO/Packet-Tracer/Images/Wireless_Router_Hardening_And_Security/Changing%20Default%20Password2.png)
 
 ---
 
-## 🛠 Part 4: Verifying Security and Connectivity  
-### 🔹 Testing Internet Access  
-To confirm that devices were connected securely:  
-- I opened a web browser on **both laptops** and successfully loaded `www.ptsecurity.com`.  
+## **🔒 Part 2: Configure Wireless Router Network Security**
+By default, wireless networks may be accessible to unauthorized users. We will secure these networks by enabling encryption and configuring SSIDs.
 
-### 🔹 Isolating Guest Network Traffic  
-By default, guests could **communicate with HomeNet devices**, which is a security risk. To fix this:  
-- I **disabled guest-to-home network access** in the router settings.  
-- Verified that **Home Laptop 2 (GuestNet) could no longer ping Home Laptop 1 (HomeNet)**.  
+### **Step 1: Configure and Broadcast the SSID**
+1. Navigate to the **Wireless** tab.  
+2. Enable `SSID Broadcast` for all three networks.  
+3. Change each SSID name to `HomeNet`.  
+4. Click **Save Settings**.  
 
-🔍 **Lesson Learned:** **Network segmentation** is crucial to **prevent unauthorized access** between trusted and untrusted devices.  
+### **Step 2: Configure Security for HomeNet**
+1. In the **Wireless** tab, go to **Wireless Security**.  
+2. For each of the three networks:
+   - **Security Mode:** WPA2 Personal  
+   - **Encryption:** AES  
+   - **Passphrase:** `ciscorocks`  
+3. Click **Save Settings**.
+
+### [Configuring Security for HomeNet Image](https://github.com/proxymc/it-specialist-projects/blob/main/CISCO/Packet-Tracer/Images/Wireless_Router_Hardening_And_Security/Best%20security%20for%20the%20HomeNet%20Wireless%20Networks.png)
+
+### **Step 3: Configure Security for GuestNet**
+1. Go to the **Wireless** tab > **Guest Network**.  
+2. Enable `Guest Profile` for all three networks and configure:
+   - **SSID:** GuestNet  
+   - **SSID Broadcast:** Enabled  
+   - **Security Mode:** WPA2 Personal  
+   - **Encryption:** AES  
+   - **Passphrase:** `guestpass`  
+3. Click **Save Settings**.
+
+### [Configuring Security for GuestNet Image](https://raw.githubusercontent.com/proxymc/it-specialist-projects/refs/heads/main/CISCO/Packet-Tracer/Images/Wireless_Router_Hardening_And_Security/Best%20security%20for%20GuestNet%20Wireless%20Networks.png)
+---
+
+## **💻 Part 3: Configure Wireless Clients Network Security**
+After securing the wireless router, we connect client devices using the appropriate security settings.
+
+### **Step 1: Connect Laptops to HomeNet and GuestNet**
+1. Click **Home Laptop 1** > `Desktop` > **PC Wireless**.  
+2. Select **HomeNet** and click **Connect**.  
+3. Enter `ciscorocks` as the Pre-shared Key.  
+4. Verify successful connection under **Link Information**.  
+5. Repeat for **Home Laptop 2**, but connect to **GuestNet** with the passphrase `guestpass`.  
+
+### [Connecting Laptops To Network Image](https://raw.githubusercontent.com/proxymc/it-specialist-projects/refs/heads/main/CISCO/Packet-Tracer/Images/Wireless_Router_Hardening_And_Security/Home%20Laptop%201%20Wirless%20Connection.png)
+
+### **Step 2: Connect IoT Devices**
+1. Click **Home_Webcam** > `Config` > `Wireless0`.  
+2. Set **SSID** to `HomeNet`.  
+3. Choose **WPA2-PSK** authentication and enter `ciscorocks`.  
+4. Set `IP Configuration` to **DHCP**.  
+5. Repeat for **Home_Siren** and **Home_Doors**.
+
+### [Configuring WebCam Connection](https://raw.githubusercontent.com/proxymc/it-specialist-projects/refs/heads/main/CISCO/Packet-Tracer/Images/Wireless_Router_Hardening_And_Security/Home%20Web%20Cam%20connectivity%20configuration.png)
 
 ---
 
-## 💡 Final Thoughts and Key Takeaways  
-This lab reinforced essential **wireless security principles** that apply to both **home** and **enterprise** environments.  
+## **✅ Part 4: Verify Connectivity and Security Settings**
+After configuration, we test connectivity and enforce network isolation.
 
-### 🔑 Key Takeaways:  
-✔ **Change default credentials** immediately to prevent unauthorized access.  
-✔ **Disable remote management** to reduce attack exposure.  
-✔ **Always use WPA2/AES encryption** (avoid WEP and older protocols).  
-✔ **Set up a separate guest network** to **isolate** external users.  
-✔ **Verify network segmentation** to prevent **lateral movement** in case of a breach.  
+### **Step 1: Test Internet Connectivity**
+1. Click **Home Laptop 1** > `Desktop` > **Web Browser**.  
+2. Navigate to `www.ptsecurity.com` to confirm internet access.  
+3. Repeat for **Home Laptop 2**.
 
-By securing the router and implementing these **best practices**, I gained hands-on experience in **wireless security hardening**, an essential skill in **network security and IT administration**.  
+### **Step 2: Prevent GuestNet from Accessing HomeNet**
+1. Find the IP address of **Home Laptop 1**.  
+2. On **Home Laptop 2**, open `Command Prompt` and enter:
+   ```sh
+   ping [Home Laptop 1's IP]
+   ```
+
+### [Confirming Communication Of Devices On Local Network Image](https://raw.githubusercontent.com/proxymc/it-specialist-projects/refs/heads/main/CISCO/Packet-Tracer/Images/Wireless_Router_Hardening_And_Security/Guest%20Network%20And%20Home%20Network%20Laptops%20communicate.png)
+
+3. If pings succeed, restrict interconnectivity:
+   - Go to `192.168.0.1`, **Wireless** > **Guest Network**.
+   - Uncheck `Allow guests to see each other and access the local network`.
+   - Click **Save Settings**.
+4. Repeat the `ping` test from **Home Laptop 2**—the request should now fail.
+
+### [Local Communcation Disconected Image](https://raw.githubusercontent.com/proxymc/it-specialist-projects/refs/heads/main/CISCO/Packet-Tracer/Images/Wireless_Router_Hardening_And_Security/Guest%20Network%20And%20Home%20Network%20Laptops%20communicate.png)
+
+---
+
+## **📚 Lessons Learned**
+- **Changing default credentials** is the first step to securing any network device.
+- **Remote management** should be disabled unless absolutely necessary.
+- **WPA2 encryption with AES** is essential for protecting wireless traffic.
+- **Guest networks** should be isolated from the main network.
+- **Proper IP allocation** (using DHCP) ensures smooth connectivity for all devices.
+
+By following these best practices, we significantly reduce security risks and ensure a **safe and reliable** wireless network. 🔐
+
 
 ---
 #### 🔙 [Back To CISCO Labs](/CISCO/Packet-Tracer/)
