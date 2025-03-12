@@ -1,4 +1,4 @@
-# Packet Tracer - File and Data Integrity Checks
+# File and Data Integrity Checks
 
 ## Objectives
 
