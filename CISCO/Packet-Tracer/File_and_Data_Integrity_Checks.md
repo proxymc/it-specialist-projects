@@ -9,14 +9,7 @@ In this lab, we will verify the integrity of multiple files using hashes to ensu
 - Use hashing to verify file integrity.
 - Use HMAC to verify file integrity.
 
-### Resources
-
-- **CSE-LABVM** installed in VirtualBox
-- **Packet Tracer** for network simulation
-
 ---
-## Instructions
-
 ### Part 1: Recover Files after a Cyber Attack
 
 1. **Access the Branch Office Server from Mike’s PC**
