@@ -10,7 +10,7 @@ In this lab, we will verify the integrity of multiple files using hashes to ensu
 - Use HMAC to verify file integrity.
 
 ---
-### Part 1: Recover Files after a Cyber Attack
+## 🛠Part 1: Recover Files after a Cyber Attack
 
 1. **Access the Branch Office Server from Mike’s PC**
 
@@ -46,7 +46,7 @@ In this lab, we will verify the integrity of multiple files using hashes to ensu
      ```
    - Verify the files have been downloaded.
 
-### Part 2: Use Hashing to Verify File Integrity
+## 🛠Part 2: Use Hashing to Verify File Integrity
 
 1. **Generate hashes for the downloaded files**
 
@@ -73,7 +73,7 @@ In this lab, we will verify the integrity of multiple files using hashes to ensu
    - Download the tampered file.
    - Verify successful transfer.
 
-### Part 3: Use HMAC to Verify File Integrity
+## 🛠Part 3: Use HMAC to Verify File Integrity
 
 1. **Compute an HMAC for a critical financial file**
 
@@ -90,7 +90,7 @@ In this lab, we will verify the integrity of multiple files using hashes to ensu
 
    - Unlike general hashing, **HMAC requires both the original message and a secret key**, making it more resistant to unauthorized modifications.
 
-## Lessons Learned
+## 📚Lessons Learned
 
 - **File integrity checks are essential** in cybersecurity to detect unauthorized modifications.
 - **MD5 hashing is a quick way** to verify file integrity, but HMAC provides additional security by requiring a secret key.
@@ -108,16 +108,6 @@ This lab demonstrates how to:
 - Implement HMAC for additional security.
 
 These techniques are fundamental for cybersecurity professionals responsible for data integrity and threat mitigation.
-
----
-
-### Repository Suggestions:
-
-- Include sample hash files (`hashes.txt`).
-- Provide example tampered files for testing.
-- Add a `README.md` with lab setup instructions.
-
-This lab is an essential exercise for securing sensitive data and ensuring its integrity after cyber incidents. 🚀
 
 ---
 #### 🔙 [Back To CISCO Labs](/CISCO/Packet-Tracer/)
