@@ -10,7 +10,7 @@ To improve home security, IoT devices will be installed to allow remote monitori
 - **Part 3:** Explore IoT Security Device Functionality
 
 ---
-## Part 1: Connect IoT Devices to the Network
+## 🛠Part 1: Connect IoT Devices to the Network
 
 ### Step 1: Connect the Siren to the Door
 1. Click **Home** and locate **Home_Siren** and **Home Doors** in the living room.
@@ -52,7 +52,7 @@ The **Home Wireless Router** is pre-configured with **WPA2-PSK** and **MAC Addre
 
 ---
 
-## Part 2: Add IoT Devices to the Registration Server
+## 🛠Part 2: Add IoT Devices to the Registration Server
 
 ### Step 1: Create an Account
 1. On **Home Office PC**, open **Web Browser**.
@@ -81,7 +81,7 @@ Each IoT device must be registered for remote monitoring.
 
 ---
 
-## Part 3: Explore IoT Security Device Functionality
+## 🛠Part 3: Explore IoT Security Device Functionality
 
 ### Step 1: Observe and Control Devices from the Registration Server
 
@@ -104,7 +104,7 @@ Each IoT device must be registered for remote monitoring.
 
 ---
 
-## Reflection Questions
+## 📚Lesson Learned
 
 **1. What advantages do IoT devices provide for home security?**
 - IoT devices are **easy to install and configure**.
