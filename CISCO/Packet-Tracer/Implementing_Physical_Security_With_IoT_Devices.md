@@ -9,6 +9,9 @@ To improve home security, IoT devices will be installed to allow remote monitori
 - **Part 2:** Add IoT Devices to the Registration Server
 - **Part 3:** Explore IoT Security Device Functionality
 
+### [Wide Network Visualisation Image](https://raw.githubusercontent.com/proxymc/it-specialist-projects/refs/heads/main/CISCO/Packet-Tracer/Images/Implementing_Physical_Security_With%20_IoT_Devices/Wide%20Network%20Visualisation.png)
+### [Home Network Visualisation Image](https://raw.githubusercontent.com/proxymc/it-specialist-projects/refs/heads/main/CISCO/Packet-Tracer/Images/Implementing_Physical_Security_With%20_IoT_Devices/Home%20Network%20Visualisation%20Image.png)
+
 ---
 ## 🛠Part 1: Connect IoT Devices to the Network
 
@@ -42,6 +45,8 @@ The **Home Wireless Router** is pre-configured with **WPA2-PSK** and **MAC Addre
    - Home_Webcam: `00:D0:58:D1:C4:11`
 5. Repeat for all devices.
 
+### [IP Configuration Image](https://raw.githubusercontent.com/proxymc/it-specialist-projects/refs/heads/main/CISCO/Packet-Tracer/Images/Implementing_Physical_Security_With%20_IoT_Devices/IP%20Confifuration%20for%20IoT.png)
+
 ### Step 3: Configure MAC Address Filtering
 1. Open **Home Office PC** > **Desktop** > **Web Browser**.
 2. Login to `192.168.0.1` with **admin/admin**.
@@ -50,8 +55,9 @@ The **Home Wireless Router** is pre-configured with **WPA2-PSK** and **MAC Addre
 5. Add the MAC addresses of all IoT devices.
 6. Click **Save Settings** to apply changes.
 
----
+### [Configuring MAC Addresses Image](https://raw.githubusercontent.com/proxymc/it-specialist-projects/refs/heads/main/CISCO/Packet-Tracer/Images/Implementing_Physical_Security_With%20_IoT_Devices/MAC%20Addresses%20Added.png)
 
+---
 ## 🛠Part 2: Add IoT Devices to the Registration Server
 
 ### Step 1: Create an Account
@@ -74,10 +80,14 @@ Each IoT device must be registered for remote monitoring.
 3. Click **Connect**. The button should change from **Connecting** to **Refresh**.
 4. Repeat for all IoT devices.
 
+### [Conecting Devices To Remote Server Image](https://raw.githubusercontent.com/proxymc/it-specialist-projects/refs/heads/main/CISCO/Packet-Tracer/Images/Implementing_Physical_Security_With%20_IoT_Devices/Connecting%20Devices%20To%20Remote%20Server.png)
+
 ### Step 3: Verify Registration
 1. Open **Web Browser** on **Home Office PC**.
 2. Login to `10.3.0.125` with **HomeUser/Pa$$w0rd**.
 3. Confirm all devices appear as **registered**.
+
+### [Veryfying IoT Remote Connection Image](https://raw.githubusercontent.com/proxymc/it-specialist-projects/refs/heads/main/CISCO/Packet-Tracer/Images/Implementing_Physical_Security_With%20_IoT_Devices/Veryfying%20Devices%20Connection%20To%20Remote%20Server.png)
 
 ---
 
