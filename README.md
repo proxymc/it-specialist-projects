@@ -1,3 +1,11 @@
+# Hello👋, My name is Pawel and I am...
+### 💻 Aspiring IT & Cybersecurity Specialist with practical experience in **Network Security, IT Troubleshooting, and Ethical Hacking**.  
+
+### 📩 Feel free to **connect or reach out** for collaboration!  
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin=linkedin&style=for-the-badge)](https://www.linkedin.com/in/paweldrzazga/)
+
+---
 # 🖥️ IT Specialist Projects
 
 A collection of hands-on labs and projects related to IT Support, Networking, System Administration, Active Directory and Linux.
