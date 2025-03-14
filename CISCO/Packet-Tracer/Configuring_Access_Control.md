@@ -1,20 +1,21 @@
 # Packet Tracer - Configure Access Control
 
-## Objectives
+## 📌Overview
+
+Authentication and authorization are distinct security processes in identity and access management (IAM). Authentication confirms a user's identity using passwords and other identification methods, while authorization assigns user permissions to resources.
+In this Packet Tracer activity, authentication and authorization will be configured for network services including wireless network access, email, and FTP services.
+
+### Objectives
 
 - **Part 1:** Configure and Use AAA Authentication Credentials
 - **Part 2:** Configure and Use Email Services
 - **Part 3:** Configure and Use FTP Services
 
-## Background / Scenario
-
-Authentication and authorization are distinct security processes in identity and access management (IAM). Authentication confirms a user's identity using passwords and other identification methods, while authorization assigns user permissions to resources.
-
-In this Packet Tracer activity, authentication and authorization will be configured for network services including wireless network access, email, and FTP services.
-
+### [Wide Network Visualisation Image](https://raw.githubusercontent.com/proxymc/it-specialist-projects/refs/heads/main/CISCO/Packet-Tracer/Images/Configuring_Access_Control/Wide%20Network%20Visualisation.png)
+### [Home Network Visualisation Image](https://raw.githubusercontent.com/proxymc/it-specialist-projects/refs/heads/main/CISCO/Packet-Tracer/Images/Configuring_Access_Control/Office%20Network%20Visualisation.png)
 
 ---
-### Part 1: Configure and Use AAA Authentication Credentials
+### 🛠Part 1: Configure and Use AAA Authentication Credentials
 
 #### Step 1: Configure user accounts on the AAA server
 
@@ -28,6 +29,8 @@ In this Packet Tracer activity, authentication and authorization will be configu
    | user1    | PASSuser1! |
    | user2    | PASSuser2! |
 
+### [Phisical Servers Closet Image](https://raw.githubusercontent.com/proxymc/it-specialist-projects/refs/heads/main/CISCO/Packet-Tracer/Images/Configuring_Access_Control/Wiring%20Closet%20Visualisation%20.png)
+### [Configuring Users AAA Credentials Image](https://raw.githubusercontent.com/proxymc/it-specialist-projects/refs/heads/main/CISCO/Packet-Tracer/Images/Configuring_Access_Control/Configuring%20Users%20Accounts%20On%20AAA.png)
 #### Step 2: Configure wireless authentication on HQ-Laptop-1
 
 1. Navigate back to **HQ** and click **HQ-Laptop-1**.
@@ -40,6 +43,8 @@ In this Packet Tracer activity, authentication and authorization will be configu
 6. Under **IP Configuration**, select `DHCP` and wait for the DHCP offer to be accepted.
 7. Verify HQ-Laptop-1 received an IP address in the `192.168.50.0/24` network.
 
+### [Configuring Laptop Image](https://raw.githubusercontent.com/proxymc/it-specialist-projects/refs/heads/main/CISCO/Packet-Tracer/Images/Configuring_Access_Control/Configuring%20Laptop.png)
+
 #### Step 3: Configure wireless authentication on HQ-Laptop-2
 
 1. Click **HQ-Laptop-2**.
@@ -48,7 +53,7 @@ In this Packet Tracer activity, authentication and authorization will be configu
 
 ---
 
-### Part 2: Configure and Use Email Services
+### 🛠Part 2: Configure and Use Email Services
 
 #### Step 1: Activate email services and configure user accounts
 
@@ -65,6 +70,7 @@ In this Packet Tracer activity, authentication and authorization will be configu
    | BRuser1  | Cisco123-  |
    | BRuser2  | Cisco123+  |
 
+### [Activating Email Services Image](https://raw.githubusercontent.com/proxymc/it-specialist-projects/refs/heads/main/CISCO/Packet-Tracer/Images/Configuring_Access_Control/Configuring%20Email%20Services.png)
 #### Step 2: Configure email clients
 
 | Device        | Your Name | Email Address                | User Name | Password  |
@@ -74,6 +80,8 @@ In this Packet Tracer activity, authentication and authorization will be configu
 | HQ-Laptop-1 | Malia     | BRuser2@mail.cyberhq.com    | BRuser2   | Cisco123+  |
 | Net-Admin   | Cisco     | HQuser2@mail.cyberhq.com    | HQuser2   | Cisco123~  |
 
+### [Configuring Email Services Image](https://raw.githubusercontent.com/proxymc/it-specialist-projects/refs/heads/main/CISCO/Packet-Tracer/Images/Configuring_Access_Control/Configuring%20Email%20Services.png)
+
 #### Step 3: Send an email as Suk-Yi
 
 1. On **PC 1-1**, open `Email` under the `Desktop` tab.
@@ -82,13 +90,15 @@ In this Packet Tracer activity, authentication and authorization will be configu
 
 ---
 
-### Part 3: Configure and Use FTP Services
+### 🛠Part 3: Configure and Use FTP Services
 
 #### Step 1: Activate the FTP Service
 
 1. Navigate to **Wiring Closet**.
 2. On the right-side Rack, click **FTP server** > `Services` tab > `FTP` under `SERVICES`.
 3. Turn on the **FTP service**.
+
+### [Activating FTP Service Image](https://raw.githubusercontent.com/proxymc/it-specialist-projects/refs/heads/main/CISCO/Packet-Tracer/Images/Configuring_Access_Control/Creating%20User%20FTP%20Accounts.png)
 
 #### Step 2: Create FTP user accounts
 
@@ -126,6 +136,8 @@ In this Packet Tracer activity, authentication and authorization will be configu
    ```bash
    put aMessage_new.txt
    ```
+### [Transfering Files Between Servers Image](https://raw.githubusercontent.com/proxymc/it-specialist-projects/refs/heads/main/CISCO/Packet-Tracer/Images/Configuring_Access_Control/Tranfering%20Files%20From%20FTP%20Server.png)
+### [Transfering Files Between Servers Image 2](https://raw.githubusercontent.com/proxymc/it-specialist-projects/refs/heads/main/CISCO/Packet-Tracer/Images/Configuring_Access_Control/Tranfering%20Files%20From%20FTP%20Server.png)
 
 #### Step 4: Verify FTP user privileges
 
@@ -147,10 +159,28 @@ In this Packet Tracer activity, authentication and authorization will be configu
 
 4. Quit the FTP session.
 
+### [Veryfing FTP User Privileges Image](https://github.com/proxymc/it-specialist-projects/blob/main/CISCO/Packet-Tracer/Images/Configuring_Access_Control/Veryfying%20FTP%20Privileges.png)
 ---
+## 📚Lesson Learned
 
+What is the importance of AAA authentication?
+- Ensures secure authentication and authorization for users.
+Controls access to network resources.
+Enhances monitoring and security policies.
+
+Why is email service configuration important?
+- Provides secure communication between users.
+Enables reliable message delivery using SMTP and POP3.
+
+What is the role of an FTP server?
+- Facilitates file sharing over a network.
+Provides controlled access with different user privileges.
+---
 ## Conclusion
 
 This Packet Tracer activity covered configuring and using AAA authentication credentials, email services, and FTP services. Through this lab, authentication and authorization principles were applied to enhance network security.
 
+---
+#### 🔙 [Back To CISCO Labs](/CISCO/Packet-Tracer/)
+#### 🔙 [Back To IT Specialist Projects Repository](https://github.com/proxymc/it-specialist-projects)  
 
