@@ -15,7 +15,7 @@ In this Packet Tracer activity, authentication and authorization will be configu
 ### [Home Network Visualisation Image](https://raw.githubusercontent.com/proxymc/it-specialist-projects/refs/heads/main/CISCO/Packet-Tracer/Images/Configuring_Access_Control/Office%20Network%20Visualisation.png)
 
 ---
-### 🛠Part 1: Configure and Use AAA Authentication Credentials
+## 🛠Part 1: Configure and Use AAA Authentication Credentials
 
 #### Step 1: Configure user accounts on the AAA server
 
@@ -53,7 +53,7 @@ In this Packet Tracer activity, authentication and authorization will be configu
 
 ---
 
-### 🛠Part 2: Configure and Use Email Services
+## 🛠Part 2: Configure and Use Email Services
 
 #### Step 1: Activate email services and configure user accounts
 
@@ -90,7 +90,7 @@ In this Packet Tracer activity, authentication and authorization will be configu
 
 ---
 
-### 🛠Part 3: Configure and Use FTP Services
+## 🛠Part 3: Configure and Use FTP Services
 
 #### Step 1: Activate the FTP Service
 
