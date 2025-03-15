@@ -19,7 +19,7 @@ A collection of hands-on labs and projects related to IT Support, Networking, Sy
 - **[Packet Tracer - Configuring Access Control](CISCO/Packet-Tracer/Configuring_Access_Control.md)**
 - *(More projects to be added...)*
 
-### 🖥️ CISCO VIRTUAL BOX
+### 🖥️ [CISCO VIRTUAL BOX](/CISCO/VirtualBox)
 ---
 ### 📌 How to Use This Repository  
 - Each folder contains a README with an overview of the lab.  
