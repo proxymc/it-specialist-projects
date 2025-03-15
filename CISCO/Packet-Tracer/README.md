@@ -1,7 +1,7 @@
 # 🖧 Packet Tracer Labs
 
 ### 📌 OVERVIEW
-This section contains Cisco Packet Tracer labs covering networking fundamentals, security configurations, and troubleshooting. Each lab includes step-by-step documentation, additional resources and key learning points.
+This section contains CISCO Packet Tracer labs covering networking fundamentals, security configurations, and troubleshooting. Each lab includes step-by-step documentation, additional resources and key learning points.
 
 ---
 ### 🗂️ LABS
