@@ -1,4 +1,4 @@
-# 🖧 Packet Tracer Labs
+# 🖧 VirtualBox Labs
 
 ### 📌 OVERVIEW
 This section contains CISCO Labs in VirtualBox, which cover networking concepts, Linux configurations, and cybersecurity fundamentals using a virtualised environment. Each lab includes step-by-step documentation, additional resources and key learning points.
