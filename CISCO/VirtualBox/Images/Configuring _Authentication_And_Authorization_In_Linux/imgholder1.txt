@@ -1,1 +1,1 @@
-
+This is a placeholder file for images in Configuring Authentication and Authorization in Linux Lab
