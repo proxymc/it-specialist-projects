@@ -24,8 +24,8 @@ A collection of hands-on labs and projects related to IT Support, Networking, Sy
 - *(More projects to be added...)*
 
 ---
-### 🖥️ [TRY HACK ME](/TryHackMe)
-- **[Active Directory Fundamentals]()** 
+### 💾 [TRY HACK ME](/TryHackMe)
+- **[Active Directory - AD Fundamentals](TryHackMe/Active_Directory_Fundamentals.md)** 
 - *(More projects to be added...)*
 
 ---
