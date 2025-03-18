@@ -1,5 +1,5 @@
 # Hello👋, My name is Pawel and I am...
-### 💻 Aspiring IT & Cybersecurity Specialist with practical experience in **Network Security, IT Troubleshooting, and Ethical Hacking**.  
+### 💻 Aspiring IT & Cybersecurity Specialist with practical experience in **Network Security, IT Troubleshooting, and System Administration**.  
 
 ### 📩 Feel free to **connect or reach out** for collaboration!  
 
@@ -22,6 +22,12 @@ A collection of hands-on labs and projects related to IT Support, Networking, Sy
 ### 🖥️ [CISCO VIRTUAL BOX](/CISCO/VirtualBox)
 - **[VirtulaBox - Authentication And Authorisation](/CISCO/VirtualBox/Configure_Authentication_And_Authorization_In_Linux.md)** 
 - *(More projects to be added...)*
+
+---
+### 🖥️ [TRY HACK ME]()
+- **[Active Directory Fundamentals]()** 
+- *(More projects to be added...)*
+
 ---
 ### 📌 How to Use This Repository  
 - Each folder contains a README with an overview of the lab.  
